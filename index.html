@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Scrabble!</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div id="container">
+      <section id="score">
+      </section>
+    
+      <section id="gameboard">
+          <div id="board">
+
+          </div>
+      </section>
+      <section id="userHand">
+          <div id="hand_container">
+              <div id="hand">
+                  <div class="hand_space" id="hand_space"  ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <div class="tile" id="title" draggable="true" ondragstart="drag(event)">A</div>
+                </div>
+                  <div class="hand_space" id="hand_space"  ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                  <div class="hand_space"  ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                  <div class="hand_space"  ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                  <div class="hand_space"  ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                  <div class="hand_space"  ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                  <div class="hand_space"  ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+              </div>
+          </div>
+
+      </section>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

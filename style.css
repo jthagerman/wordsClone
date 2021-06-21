@@ -1,0 +1,54 @@
+*{
+    margin: auto;
+}
+.board_space{
+    height: 38px;
+    width: 38px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: mistyrose;
+}
+.tile{
+    height: 38px;
+    width: 38px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: purple;
+}
+.hand_space{
+    height: 38px;
+    width: 38px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: mistyrose;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+#hand{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+#gameboard{
+    width: 6px;
+    height: 600px;
+    min-width: 600px;
+
+    background-color: lightgray;
+    
+
+}
+#board{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+    
+
+}
